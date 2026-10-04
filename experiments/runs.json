@@ -1,0 +1,524 @@
+[
+  {
+    "run": "ForegroundWS-T1-20261004-154237",
+    "summary": {
+      "run": "ForegroundWS-T1-20261004-154237",
+      "technique": "ForegroundWS",
+      "expected": "3",
+      "received": "3",
+      "missed_at_export": "0",
+      "duplicates": "0",
+      "notification_submitted": "3",
+      "valid_latency_samples": "0"
+    },
+    "state": {
+      "condition": "T1",
+      "pid_after": "22425",
+      "technique": "ForegroundWS",
+      "reset": "am start -S before run",
+      "pid_before": "22425",
+      "run": "ForegroundWS-T1-20261004-154237",
+      "exported_at": "2026-10-04T15:42:54.7620382+02:00",
+      "note": "T6 valid only if pid actually disappears; notification submission is not visible-display verification"
+    }
+  },
+  {
+    "run": "ForegroundWS-T2-20261004-154458",
+    "summary": {
+      "run": "ForegroundWS-T2-20261004-154458",
+      "technique": "ForegroundWS",
+      "expected": "3",
+      "received": "3",
+      "missed_at_export": "0",
+      "duplicates": "0",
+      "notification_submitted": "3",
+      "valid_latency_samples": "0"
+    },
+    "state": {
+      "exported_at": "2026-10-04T15:45:15.4973105+02:00",
+      "technique": "ForegroundWS",
+      "reset": "am start -S before run",
+      "pid_after": "23986",
+      "run": "ForegroundWS-T2-20261004-154458",
+      "note": "T6 valid only if pid actually disappears; notification submission is not visible-display verification",
+      "condition": "T2",
+      "pid_before": "23986"
+    }
+  },
+  {
+    "run": "ForegroundWS-T3-20261004-154728",
+    "summary": {
+      "run": "ForegroundWS-T3-20261004-154728",
+      "technique": "ForegroundWS",
+      "expected": "3",
+      "received": "3",
+      "missed_at_export": "0",
+      "duplicates": "0",
+      "notification_submitted": "3",
+      "valid_latency_samples": "0"
+    },
+    "state": {
+      "reset": "am start -S before run",
+      "technique": "ForegroundWS",
+      "pid_before": "24912",
+      "exported_at": "2026-10-04T15:47:46.0963585+02:00",
+      "condition": "T3",
+      "pid_after": "24912",
+      "run": "ForegroundWS-T3-20261004-154728",
+      "note": "T6 valid only if pid actually disappears; notification submission is not visible-display verification"
+    }
+  },
+  {
+    "run": "ForegroundWS-T4-20261004-155158",
+    "before": {
+      "run": "ForegroundWS-T4-20261004-155158",
+      "technique": "ForegroundWS",
+      "expected": "3",
+      "received": "3",
+      "missed_at_export": "0",
+      "duplicates": "0",
+      "notification_submitted": "3",
+      "valid_latency_samples": "0"
+    },
+    "after": {
+      "run": "ForegroundWS-T4-20261004-155158",
+      "technique": "ForegroundWS",
+      "expected": "3",
+      "received": "3",
+      "missed_at_export": "0",
+      "duplicates": "0",
+      "notification_submitted": "3",
+      "valid_latency_samples": "0"
+    },
+    "idle_state": [
+      "mState=IDLE mLightState=OVERRIDE"
+    ]
+  },
+  {
+    "run": "ForegroundWS-T5-20261004-155528",
+    "summary": {
+      "run": "ForegroundWS-T5-20261004-155528",
+      "technique": "ForegroundWS",
+      "expected": "5",
+      "received": "2",
+      "missed_at_export": "3",
+      "duplicates": "0",
+      "notification_submitted": "2",
+      "valid_latency_samples": "0"
+    },
+    "wifi-disabled.txt": {
+      "enabled": false,
+      "connected": false
+    },
+    "wifi-restored.txt": {
+      "enabled": true,
+      "connected": true
+    }
+  },
+  {
+    "run": "ForegroundWS-T6-20261004-154820",
+    "summary": {
+      "run": "ForegroundWS-T6-20261004-154820",
+      "technique": "ForegroundWS",
+      "expected": "3",
+      "received": "3",
+      "missed_at_export": "0",
+      "duplicates": "0",
+      "notification_submitted": "3",
+      "valid_latency_samples": "0"
+    },
+    "state": {
+      "reset": "am start -S before run",
+      "technique": "ForegroundWS",
+      "pid_before": "25602",
+      "exported_at": "2026-10-04T15:48:38.2131589+02:00",
+      "condition": "T6",
+      "pid_after": "25602",
+      "run": "ForegroundWS-T6-20261004-154820",
+      "note": "T6 valid only if pid actually disappears; notification submission is not visible-display verification"
+    }
+  },
+  {
+    "run": "ForegroundWS-T6Direct-20261004-155003",
+    "summary": {
+      "run": "ForegroundWS-T6Direct-20261004-155003",
+      "technique": "ForegroundWS",
+      "expected": "3",
+      "received": "0",
+      "missed_at_export": "3",
+      "duplicates": "0",
+      "notification_submitted": "0",
+      "valid_latency_samples": "0"
+    },
+    "state": {
+      "pid_after": null,
+      "note": "T6 is am kill; T6Direct is debug-app-UID SIGKILL through run-as, not force-stop. Valid killed state only if PID disappears. Notification submissions do not verify visible display.",
+      "reset": "am start -S before run",
+      "exported_at": "2026-10-04T15:50:21.2036435+02:00",
+      "pid_before": "26534",
+      "condition": "T6Direct",
+      "run": "ForegroundWS-T6Direct-20261004-155003",
+      "technique": "ForegroundWS"
+    }
+  },
+  {
+    "run": "MQTT-duplicates-20261004-155807",
+    "summary": {
+      "run": "MQTT-duplicates-20261004-155807",
+      "technique": "MQTT",
+      "expected": "1",
+      "received": "1",
+      "missed_at_export": "0",
+      "duplicates": "2",
+      "notification_submitted": "1",
+      "valid_latency_samples": "0"
+    }
+  },
+  {
+    "run": "MQTT-T1-20261004-154201",
+    "summary": {
+      "run": "MQTT-T1-20261004-154201",
+      "technique": "MQTT",
+      "expected": "3",
+      "received": "3",
+      "missed_at_export": "0",
+      "duplicates": "0",
+      "notification_submitted": "3",
+      "valid_latency_samples": "0"
+    },
+    "state": {
+      "note": "T6 valid only if pid actually disappears; notification submission is not visible-display verification",
+      "pid_before": "21841",
+      "technique": "MQTT",
+      "reset": "am start -S before run",
+      "exported_at": "2026-10-04T15:42:18.8468467+02:00",
+      "run": "MQTT-T1-20261004-154201",
+      "condition": "T1",
+      "pid_after": "21841"
+    }
+  },
+  {
+    "run": "MQTT-T2-20261004-154412",
+    "summary": {
+      "run": "MQTT-T2-20261004-154412",
+      "technique": "MQTT",
+      "expected": "3",
+      "received": "2",
+      "missed_at_export": "1",
+      "duplicates": "0",
+      "notification_submitted": "2",
+      "valid_latency_samples": "0"
+    },
+    "state": {
+      "exported_at": "2026-10-04T15:44:29.9751169+02:00",
+      "run": "MQTT-T2-20261004-154412",
+      "condition": "T2",
+      "technique": "MQTT",
+      "reset": "am start -S before run",
+      "pid_after": "23671",
+      "note": "T6 valid only if pid actually disappears; notification submission is not visible-display verification",
+      "pid_before": "23671"
+    }
+  },
+  {
+    "run": "MQTT-T3-20261004-154711",
+    "summary": {
+      "run": "MQTT-T3-20261004-154711",
+      "technique": "MQTT",
+      "expected": "3",
+      "received": "0",
+      "missed_at_export": "3",
+      "duplicates": "0",
+      "notification_submitted": "0",
+      "valid_latency_samples": "0"
+    },
+    "state": {
+      "reset": "am start -S before run",
+      "technique": "MQTT",
+      "pid_before": "24795",
+      "exported_at": "2026-10-04T15:47:28.8384814+02:00",
+      "condition": "T3",
+      "pid_after": "24795",
+      "run": "MQTT-T3-20261004-154711",
+      "note": "T6 valid only if pid actually disappears; notification submission is not visible-display verification"
+    }
+  },
+  {
+    "run": "MQTT-T4-20261004-155138",
+    "before": {
+      "run": "MQTT-T4-20261004-155138",
+      "technique": "MQTT",
+      "expected": "3",
+      "received": "0",
+      "missed_at_export": "3",
+      "duplicates": "0",
+      "notification_submitted": "0",
+      "valid_latency_samples": "0"
+    },
+    "after": {
+      "run": "MQTT-T4-20261004-155138",
+      "technique": "MQTT",
+      "expected": "3",
+      "received": "0",
+      "missed_at_export": "3",
+      "duplicates": "0",
+      "notification_submitted": "0",
+      "valid_latency_samples": "0"
+    },
+    "idle_state": [
+      "mState=IDLE mLightState=OVERRIDE"
+    ]
+  },
+  {
+    "run": "MQTT-T5-20261004-155457",
+    "summary": {
+      "run": "MQTT-T5-20261004-155457",
+      "technique": "MQTT",
+      "expected": "5",
+      "received": "1",
+      "missed_at_export": "4",
+      "duplicates": "0",
+      "notification_submitted": "1",
+      "valid_latency_samples": "0"
+    },
+    "wifi-disabled.txt": {
+      "enabled": false,
+      "connected": false
+    },
+    "wifi-restored.txt": {
+      "enabled": true,
+      "connected": true
+    }
+  },
+  {
+    "run": "MQTT-T6-20261004-154803",
+    "summary": {
+      "run": "MQTT-T6-20261004-154803",
+      "technique": "MQTT",
+      "expected": "3",
+      "received": "0",
+      "missed_at_export": "3",
+      "duplicates": "0",
+      "notification_submitted": "0",
+      "valid_latency_samples": "0"
+    },
+    "state": {
+      "reset": "am start -S before run",
+      "technique": "MQTT",
+      "pid_before": "25273",
+      "exported_at": "2026-10-04T15:48:20.7527015+02:00",
+      "condition": "T6",
+      "pid_after": "25273",
+      "run": "MQTT-T6-20261004-154803",
+      "note": "T6 valid only if pid actually disappears; notification submission is not visible-display verification"
+    }
+  },
+  {
+    "run": "MQTT-T6Direct-20261004-154946",
+    "summary": {
+      "run": "MQTT-T6Direct-20261004-154946",
+      "technique": "MQTT",
+      "expected": "3",
+      "received": "0",
+      "missed_at_export": "3",
+      "duplicates": "0",
+      "notification_submitted": "0",
+      "valid_latency_samples": "0"
+    },
+    "state": {
+      "pid_after": null,
+      "note": "T6 is am kill; T6Direct is debug-app-UID SIGKILL through run-as, not force-stop. Valid killed state only if PID disappears. Notification submissions do not verify visible display.",
+      "reset": "am start -S before run",
+      "exported_at": "2026-10-04T15:50:03.8205108+02:00",
+      "pid_before": "26288",
+      "condition": "T6Direct",
+      "run": "MQTT-T6Direct-20261004-154946",
+      "technique": "MQTT"
+    }
+  },
+  {
+    "run": "Polling-T1-20261004-154315",
+    "summary": {
+      "run": "Polling-T1-20261004-154315",
+      "technique": "Polling",
+      "expected": "3",
+      "received": "3",
+      "missed_at_export": "0",
+      "duplicates": "0",
+      "notification_submitted": "3",
+      "valid_latency_samples": "0"
+    },
+    "state": {
+      "pid_after": "22943",
+      "pid_before": "22943",
+      "technique": "Polling",
+      "note": "T6 valid only if pid actually disappears; notification submission is not visible-display verification",
+      "condition": "T1",
+      "reset": "am start -S before run",
+      "exported_at": "2026-10-04T15:43:29.9659093+02:00",
+      "run": "Polling-T1-20261004-154315"
+    }
+  },
+  {
+    "run": "WebSocket-T1-20261004-154134",
+    "summary": {
+      "run": "WebSocket-T1-20261004-154134",
+      "technique": "WebSocket",
+      "expected": "3",
+      "received": "3",
+      "missed_at_export": "0",
+      "duplicates": "0",
+      "notification_submitted": "3",
+      "valid_latency_samples": "0"
+    },
+    "state": {
+      "technique": "WebSocket",
+      "pid_after": "21420",
+      "note": "T6 valid only if pid actually disappears; notification submission is not visible-display verification",
+      "condition": "T1",
+      "pid_before": "21420",
+      "reset": "am start -S before run",
+      "run": "WebSocket-T1-20261004-154134",
+      "exported_at": "2026-10-04T15:41:51.3768449+02:00"
+    }
+  },
+  {
+    "run": "WebSocket-T2-20261004-154335",
+    "summary": {
+      "run": "WebSocket-T2-20261004-154335",
+      "technique": "WebSocket",
+      "expected": "3",
+      "received": "3",
+      "missed_at_export": "0",
+      "duplicates": "0",
+      "notification_submitted": "3",
+      "valid_latency_samples": "0"
+    },
+    "state": {
+      "run": "WebSocket-T2-20261004-154335",
+      "note": "T6 valid only if pid actually disappears; notification submission is not visible-display verification",
+      "condition": "T2",
+      "technique": "WebSocket",
+      "pid_before": "23172",
+      "pid_after": "23172",
+      "reset": "am start -S before run",
+      "exported_at": "2026-10-04T15:43:57.9685614+02:00"
+    }
+  },
+  {
+    "run": "WebSocket-T3-20261004-154627",
+    "summary": {
+      "run": "WebSocket-T3-20261004-154627",
+      "technique": "WebSocket",
+      "expected": "3",
+      "received": "2",
+      "missed_at_export": "1",
+      "duplicates": "0",
+      "notification_submitted": "2",
+      "valid_latency_samples": "0"
+    },
+    "state": {
+      "pid_after": "24525",
+      "note": "T6 valid only if pid actually disappears; notification submission is not visible-display verification",
+      "run": "WebSocket-T3-20261004-154627",
+      "reset": "am start -S before run",
+      "pid_before": "24525",
+      "condition": "T3",
+      "technique": "WebSocket",
+      "exported_at": "2026-10-04T15:46:44.9429484+02:00"
+    }
+  },
+  {
+    "run": "WebSocket-T4-20261004-155045",
+    "before": {
+      "run": "WebSocket-T4-20261004-155045",
+      "technique": "WebSocket",
+      "expected": "3",
+      "received": "0",
+      "missed_at_export": "3",
+      "duplicates": "0",
+      "notification_submitted": "0",
+      "valid_latency_samples": "0"
+    },
+    "after": {
+      "run": "WebSocket-T4-20261004-155045",
+      "technique": "WebSocket",
+      "expected": "3",
+      "received": "0",
+      "missed_at_export": "3",
+      "duplicates": "0",
+      "notification_submitted": "0",
+      "valid_latency_samples": "0"
+    },
+    "idle_state": [
+      "mState=IDLE mLightState=OVERRIDE"
+    ]
+  },
+  {
+    "run": "WebSocket-T5-20261004-155426",
+    "summary": {
+      "run": "WebSocket-T5-20261004-155426",
+      "technique": "WebSocket",
+      "expected": "5",
+      "received": "0",
+      "missed_at_export": "5",
+      "duplicates": "0",
+      "notification_submitted": "0",
+      "valid_latency_samples": "0"
+    },
+    "wifi-disabled.txt": {
+      "enabled": false,
+      "connected": false
+    },
+    "wifi-restored.txt": {
+      "enabled": true,
+      "connected": true
+    }
+  },
+  {
+    "run": "WebSocket-T6-20261004-154746",
+    "summary": {
+      "run": "WebSocket-T6-20261004-154746",
+      "technique": "WebSocket",
+      "expected": "3",
+      "received": "0",
+      "missed_at_export": "3",
+      "duplicates": "0",
+      "notification_submitted": "0",
+      "valid_latency_samples": "0"
+    },
+    "state": {
+      "reset": "am start -S before run",
+      "technique": "WebSocket",
+      "pid_before": "25016",
+      "exported_at": "2026-10-04T15:48:03.4367971+02:00",
+      "condition": "T6",
+      "pid_after": "25016",
+      "run": "WebSocket-T6-20261004-154746",
+      "note": "T6 valid only if pid actually disappears; notification submission is not visible-display verification"
+    }
+  },
+  {
+    "run": "WebSocket-T6Direct-20261004-154929",
+    "summary": {
+      "run": "WebSocket-T6Direct-20261004-154929",
+      "technique": "WebSocket",
+      "expected": "3",
+      "received": "0",
+      "missed_at_export": "3",
+      "duplicates": "0",
+      "notification_submitted": "0",
+      "valid_latency_samples": "0"
+    },
+    "state": {
+      "pid_after": null,
+      "note": "T6 is am kill; T6Direct is debug-app-UID SIGKILL through run-as, not force-stop. Valid killed state only if PID disappears. Notification submissions do not verify visible display.",
+      "reset": "am start -S before run",
+      "exported_at": "2026-10-04T15:49:46.4454845+02:00",
+      "pid_before": "25963",
+      "condition": "T6Direct",
+      "run": "WebSocket-T6Direct-20261004-154929",
+      "technique": "WebSocket"
+    }
+  }
+]

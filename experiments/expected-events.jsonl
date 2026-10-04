@@ -1,0 +1,74 @@
+{"id": "1a3feead-c4fd-4e3c-8d80-8d23b5b91966", "sent_at": 1791121063903, "payload": "First real WebSocket notification", "run": "first-ws", "seq": 1}
+{"id": "5d8b15f3-a8f4-4417-95c2-e6c409ca4216", "sent_at": 1791121303050, "payload": "WebSocket-T1-20261004-154134 event 1", "run": "WebSocket-T1-20261004-154134", "seq": 2}
+{"id": "f14f11f8-8757-4dec-b146-55a630e51998", "sent_at": 1791121304156, "payload": "WebSocket-T1-20261004-154134 event 2", "run": "WebSocket-T1-20261004-154134", "seq": 3}
+{"id": "685bf0d7-91dc-4d7b-aaa0-6f8dc9d2d86a", "sent_at": 1791121305258, "payload": "WebSocket-T1-20261004-154134 event 3", "run": "WebSocket-T1-20261004-154134", "seq": 4}
+{"id": "f8c36af9-8a35-426e-8ab8-8803e8d7db26", "sent_at": 1791121330509, "payload": "MQTT-T1-20261004-154201 event 1", "run": "MQTT-T1-20261004-154201", "seq": 5}
+{"id": "d19d4332-8772-40ba-ad63-e8051b603808", "sent_at": 1791121331611, "payload": "MQTT-T1-20261004-154201 event 2", "run": "MQTT-T1-20261004-154201", "seq": 6}
+{"id": "1b9ffb93-6317-4809-b459-631373db2657", "sent_at": 1791121332714, "payload": "MQTT-T1-20261004-154201 event 3", "run": "MQTT-T1-20261004-154201", "seq": 7}
+{"id": "ebe056e5-5f7b-4c71-8cc9-6583d8864b0d", "sent_at": 1791121366401, "payload": "ForegroundWS-T1-20261004-154237 event 1", "run": "ForegroundWS-T1-20261004-154237", "seq": 8}
+{"id": "c68c38cc-d086-4e6b-bf95-f43d8b8a153a", "sent_at": 1791121367501, "payload": "ForegroundWS-T1-20261004-154237 event 2", "run": "ForegroundWS-T1-20261004-154237", "seq": 9}
+{"id": "aba8337e-e959-432c-8eca-c37050c25c32", "sent_at": 1791121368605, "payload": "ForegroundWS-T1-20261004-154237 event 3", "run": "ForegroundWS-T1-20261004-154237", "seq": 10}
+{"id": "100ec6fa-084b-4d37-97ab-99c3ac978a7b", "sent_at": 1791121396059, "payload": "Polling-T1-20261004-154315 queued event 1", "run": "Polling-T1-20261004-154315", "seq": 11}
+{"id": "6f4299d6-620a-48d9-a7d1-0b2523756264", "sent_at": 1791121396152, "payload": "Polling-T1-20261004-154315 queued event 2", "run": "Polling-T1-20261004-154315", "seq": 12}
+{"id": "0a67bffa-5277-4e4d-930a-8019d4a7fcda", "sent_at": 1791121396240, "payload": "Polling-T1-20261004-154315 queued event 3", "run": "Polling-T1-20261004-154315", "seq": 13}
+{"id": "35a895bb-7c96-4669-8013-299064f01718", "sent_at": 1791121429609, "payload": "WebSocket-T2-20261004-154335 event 1", "run": "WebSocket-T2-20261004-154335", "seq": 14}
+{"id": "a93120ae-841e-41ba-9548-2e0bc461426f", "sent_at": 1791121430718, "payload": "WebSocket-T2-20261004-154335 event 2", "run": "WebSocket-T2-20261004-154335", "seq": 15}
+{"id": "4eec0e60-d62b-4037-8357-90e707f118b0", "sent_at": 1791121431823, "payload": "WebSocket-T2-20261004-154335 event 3", "run": "WebSocket-T2-20261004-154335", "seq": 16}
+{"id": "d46f4bf1-522c-43d0-8a18-de9e62184c11", "sent_at": 1791121461625, "payload": "MQTT-T2-20261004-154412 event 1", "run": "MQTT-T2-20261004-154412", "seq": 17}
+{"id": "d6c0c36c-0013-477d-8743-72fc97bb5971", "sent_at": 1791121462735, "payload": "MQTT-T2-20261004-154412 event 2", "run": "MQTT-T2-20261004-154412", "seq": 18}
+{"id": "0ac3f16c-1ebf-4cde-a480-4382c41294d0", "sent_at": 1791121463853, "payload": "MQTT-T2-20261004-154412 event 3", "run": "MQTT-T2-20261004-154412", "seq": 19}
+{"id": "3013434e-60a7-4d47-96d5-ac3ec54fe9f9", "sent_at": 1791121507159, "payload": "ForegroundWS-T2-20261004-154458 event 1", "run": "ForegroundWS-T2-20261004-154458", "seq": 20}
+{"id": "f24a80f0-093a-46e0-b87d-77a774a37d46", "sent_at": 1791121508256, "payload": "ForegroundWS-T2-20261004-154458 event 2", "run": "ForegroundWS-T2-20261004-154458", "seq": 21}
+{"id": "60b617b2-c66a-4ba4-b266-1a9d4c9da24f", "sent_at": 1791121509364, "payload": "ForegroundWS-T2-20261004-154458 event 3", "run": "ForegroundWS-T2-20261004-154458", "seq": 22}
+{"id": "73bd6995-61fd-4469-b801-763cacbdbdc9", "sent_at": 1791121596577, "payload": "WebSocket-T3-20261004-154627 event 1", "run": "WebSocket-T3-20261004-154627", "seq": 23}
+{"id": "15b314e7-76a8-49fb-ba3e-97b57f56020a", "sent_at": 1791121597690, "payload": "WebSocket-T3-20261004-154627 event 2", "run": "WebSocket-T3-20261004-154627", "seq": 24}
+{"id": "935c3662-0928-491b-994f-bfce1b8fb641", "sent_at": 1791121598802, "payload": "WebSocket-T3-20261004-154627 event 3", "run": "WebSocket-T3-20261004-154627", "seq": 25}
+{"id": "a706cc22-cd1a-4abd-84e2-6814a9e0682a", "sent_at": 1791121640461, "payload": "MQTT-T3-20261004-154711 event 1", "run": "MQTT-T3-20261004-154711", "seq": 26}
+{"id": "cfb0f813-53a8-4674-b121-7832af03e30a", "sent_at": 1791121641568, "payload": "MQTT-T3-20261004-154711 event 2", "run": "MQTT-T3-20261004-154711", "seq": 27}
+{"id": "1937bb02-11b6-42d8-ae9d-6cfcaddf6449", "sent_at": 1791121642666, "payload": "MQTT-T3-20261004-154711 event 3", "run": "MQTT-T3-20261004-154711", "seq": 28}
+{"id": "13a6b702-ba99-4bb0-a4cd-01bc564cf844", "sent_at": 1791121657726, "payload": "ForegroundWS-T3-20261004-154728 event 1", "run": "ForegroundWS-T3-20261004-154728", "seq": 29}
+{"id": "0bdcc744-beb2-432c-bfee-7d4d515d3af1", "sent_at": 1791121658834, "payload": "ForegroundWS-T3-20261004-154728 event 2", "run": "ForegroundWS-T3-20261004-154728", "seq": 30}
+{"id": "c0da8abd-6794-4a05-a669-87f59fdaf66b", "sent_at": 1791121659945, "payload": "ForegroundWS-T3-20261004-154728 event 3", "run": "ForegroundWS-T3-20261004-154728", "seq": 31}
+{"id": "7b5d803f-c2ff-4cc6-9d3b-4d61dc04496b", "sent_at": 1791121675082, "payload": "WebSocket-T6-20261004-154746 event 1", "run": "WebSocket-T6-20261004-154746", "seq": 32}
+{"id": "4aa5bac7-62aa-46cf-9ad4-08c3d7ad82c4", "sent_at": 1791121676183, "payload": "WebSocket-T6-20261004-154746 event 2", "run": "WebSocket-T6-20261004-154746", "seq": 33}
+{"id": "3a2634b7-dab8-47cf-835c-a2076f94f2ff", "sent_at": 1791121677298, "payload": "WebSocket-T6-20261004-154746 event 3", "run": "WebSocket-T6-20261004-154746", "seq": 34}
+{"id": "a2ff80b0-98ce-4fbc-ab08-05c5b00c27f6", "sent_at": 1791121692406, "payload": "MQTT-T6-20261004-154803 event 1", "run": "MQTT-T6-20261004-154803", "seq": 35}
+{"id": "f5fc8934-e134-46b6-8880-02d1a98aac0f", "sent_at": 1791121693501, "payload": "MQTT-T6-20261004-154803 event 2", "run": "MQTT-T6-20261004-154803", "seq": 36}
+{"id": "45bd340b-cc58-4a62-ae51-c99d0200f09f", "sent_at": 1791121694621, "payload": "MQTT-T6-20261004-154803 event 3", "run": "MQTT-T6-20261004-154803", "seq": 37}
+{"id": "17e6fd32-0d61-4b23-873d-0e2565b8e61c", "sent_at": 1791121709840, "payload": "ForegroundWS-T6-20261004-154820 event 1", "run": "ForegroundWS-T6-20261004-154820", "seq": 38}
+{"id": "ec84c8be-8e6d-4950-817d-fc99d7a076f6", "sent_at": 1791121710944, "payload": "ForegroundWS-T6-20261004-154820 event 2", "run": "ForegroundWS-T6-20261004-154820", "seq": 39}
+{"id": "c0d3948b-1708-49b7-a5bb-ec81aac02600", "sent_at": 1791121712047, "payload": "ForegroundWS-T6-20261004-154820 event 3", "run": "ForegroundWS-T6-20261004-154820", "seq": 40}
+{"id": "e62d1ebd-4b4b-4cb0-9f91-035d18f758cc", "sent_at": 1791121778052, "payload": "WebSocket-T6Direct-20261004-154929 event 1", "run": "WebSocket-T6Direct-20261004-154929", "seq": 41}
+{"id": "24c2d33a-ac6e-4c7d-87b5-4836c556cd37", "sent_at": 1791121779163, "payload": "WebSocket-T6Direct-20261004-154929 event 2", "run": "WebSocket-T6Direct-20261004-154929", "seq": 42}
+{"id": "7b6a3c3a-771b-4081-8ddd-10f00ff73c70", "sent_at": 1791121780277, "payload": "WebSocket-T6Direct-20261004-154929 event 3", "run": "WebSocket-T6Direct-20261004-154929", "seq": 43}
+{"id": "7520af4e-153e-4d54-b1c4-de89469dd6e1", "sent_at": 1791121795441, "payload": "MQTT-T6Direct-20261004-154946 event 1", "run": "MQTT-T6Direct-20261004-154946", "seq": 44}
+{"id": "e927360b-0308-405c-bccb-c3425771a1ad", "sent_at": 1791121796558, "payload": "MQTT-T6Direct-20261004-154946 event 2", "run": "MQTT-T6Direct-20261004-154946", "seq": 45}
+{"id": "eb7098ec-0f1b-470a-b186-dbc29e18830e", "sent_at": 1791121797661, "payload": "MQTT-T6Direct-20261004-154946 event 3", "run": "MQTT-T6Direct-20261004-154946", "seq": 46}
+{"id": "3e887a66-0336-4797-87c5-952280d51240", "sent_at": 1791121812824, "payload": "ForegroundWS-T6Direct-20261004-155003 event 1", "run": "ForegroundWS-T6Direct-20261004-155003", "seq": 47}
+{"id": "225660bd-68e5-43a8-b3b8-1a368279cec1", "sent_at": 1791121813934, "payload": "ForegroundWS-T6Direct-20261004-155003 event 2", "run": "ForegroundWS-T6Direct-20261004-155003", "seq": 48}
+{"id": "8ddd95a5-4cf9-45d5-b181-fa891e994be0", "sent_at": 1791121815046, "payload": "ForegroundWS-T6Direct-20261004-155003 event 3", "run": "ForegroundWS-T6Direct-20261004-155003", "seq": 49}
+{"id": "f72bca30-95c1-4fa5-8bd8-1ba13032bbba", "sent_at": 1791121851959, "payload": "WebSocket-T4-20261004-155045 event 1", "run": "WebSocket-T4-20261004-155045", "seq": 50}
+{"id": "da41bf7e-7470-4fab-a322-a8938720dbf7", "sent_at": 1791121853057, "payload": "WebSocket-T4-20261004-155045 event 2", "run": "WebSocket-T4-20261004-155045", "seq": 51}
+{"id": "646b2b2b-93b4-4d81-83af-10a7a48247b9", "sent_at": 1791121854188, "payload": "WebSocket-T4-20261004-155045 event 3", "run": "WebSocket-T4-20261004-155045", "seq": 52}
+{"id": "b1a75e9e-1e4d-4f23-a1b5-02b43b5fba87", "sent_at": 1791121904430, "payload": "MQTT-T4-20261004-155138 event 1", "run": "MQTT-T4-20261004-155138", "seq": 53}
+{"id": "d794b375-b70a-4c6f-a910-906fcbd87bc5", "sent_at": 1791121905532, "payload": "MQTT-T4-20261004-155138 event 2", "run": "MQTT-T4-20261004-155138", "seq": 54}
+{"id": "65bf6910-fd70-4b79-91e1-45f2d91650e6", "sent_at": 1791121906664, "payload": "MQTT-T4-20261004-155138 event 3", "run": "MQTT-T4-20261004-155138", "seq": 55}
+{"id": "dfbf4aa0-671c-4661-8fdb-25b46ec68e3a", "sent_at": 1791121924242, "payload": "ForegroundWS-T4-20261004-155158 event 1", "run": "ForegroundWS-T4-20261004-155158", "seq": 56}
+{"id": "2227daf8-0cac-4d56-88de-75170637fa20", "sent_at": 1791121925342, "payload": "ForegroundWS-T4-20261004-155158 event 2", "run": "ForegroundWS-T4-20261004-155158", "seq": 57}
+{"id": "59cd1e2d-f1f9-4a89-a0be-728755ccfb71", "sent_at": 1791121926446, "payload": "ForegroundWS-T4-20261004-155158 event 3", "run": "ForegroundWS-T4-20261004-155158", "seq": 58}
+{"id": "3d7c28b6-bed4-4d62-b9a2-59d0e5c36387", "sent_at": 1791122072338, "payload": "Before Wi-Fi loss", "run": "WebSocket-T5-20261004-155426", "seq": 59}
+{"id": "4c188bd2-1a05-4197-8961-07def79f1541", "sent_at": 1791122076661, "payload": "During Wi-Fi loss 1", "run": "WebSocket-T5-20261004-155426", "seq": 60}
+{"id": "f41beb6e-42b8-4e1f-96e6-334f0e14b4bd", "sent_at": 1791122077765, "payload": "During Wi-Fi loss 2", "run": "WebSocket-T5-20261004-155426", "seq": 61}
+{"id": "3b8d6f10-8423-4e78-841a-6e39c6138190", "sent_at": 1791122078864, "payload": "During Wi-Fi loss 3", "run": "WebSocket-T5-20261004-155426", "seq": 62}
+{"id": "a0b10c18-b9da-4c9f-afcf-f3d60626d0ee", "sent_at": 1791122092311, "payload": "After Wi-Fi restore", "run": "WebSocket-T5-20261004-155426", "seq": 63}
+{"id": "898c2c5b-e13a-4eae-bbd4-ead39773e86c", "sent_at": 1791122103111, "payload": "Before Wi-Fi loss", "run": "MQTT-T5-20261004-155457", "seq": 64}
+{"id": "eba3f622-80e6-45bb-94bc-6eb2e5fd79c9", "sent_at": 1791122107447, "payload": "During Wi-Fi loss 1", "run": "MQTT-T5-20261004-155457", "seq": 65}
+{"id": "35cc6e3d-f9a7-46a6-9bd7-c0fcbd8ab234", "sent_at": 1791122108565, "payload": "During Wi-Fi loss 2", "run": "MQTT-T5-20261004-155457", "seq": 66}
+{"id": "15395b24-dea6-4959-ab53-f14ad89f6542", "sent_at": 1791122109671, "payload": "During Wi-Fi loss 3", "run": "MQTT-T5-20261004-155457", "seq": 67}
+{"id": "8a2c007d-a3ce-4308-a4aa-4f07ce3d0f93", "sent_at": 1791122123095, "payload": "After Wi-Fi restore", "run": "MQTT-T5-20261004-155457", "seq": 68}
+{"id": "5f22ec3b-5ede-4f39-ba9f-3b1b992aac56", "sent_at": 1791122133913, "payload": "Before Wi-Fi loss", "run": "ForegroundWS-T5-20261004-155528", "seq": 69}
+{"id": "88407f6e-ca9e-48b5-bc59-82a0ba35072b", "sent_at": 1791122138231, "payload": "During Wi-Fi loss 1", "run": "ForegroundWS-T5-20261004-155528", "seq": 70}
+{"id": "bbe17f34-ea73-4815-b4bf-b4fd68de85ed", "sent_at": 1791122139336, "payload": "During Wi-Fi loss 2", "run": "ForegroundWS-T5-20261004-155528", "seq": 71}
+{"id": "76606153-58eb-457b-8e1c-0a77ab0c3cf9", "sent_at": 1791122140439, "payload": "During Wi-Fi loss 3", "run": "ForegroundWS-T5-20261004-155528", "seq": 72}
+{"id": "638699d4-565f-487a-96ab-7cb5c8c8685c", "sent_at": 1791122153876, "payload": "After Wi-Fi restore", "run": "ForegroundWS-T5-20261004-155528", "seq": 73}
+{"id": "eed48132-2034-4957-b255-3be243c6508f", "sent_at": 1791122293193, "payload": "Duplicate-ID check", "run": "MQTT-duplicates-20261004-155807", "seq": 74}

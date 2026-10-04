@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-04",
+  "phase": 1,
+  "device_model": "SM-F956B",
+  "android_release": "16",
+  "android_sdk": 36,
+  "build_command": "./gradlew.bat assembleDebug --offline",
+  "build_result": "BUILD SUCCESSFUL",
+  "apk_signature_verification": "apksigner verify exited 0",
+  "installation": "adb install -r returned Success",
+  "launch": "onCreate and onStart observed in app diagnostics",
+  "initial_notification_permission": "granted=false",
+  "notification_visible": true,
+  "notification_visibility_evidence": "User confirmed Notification appeared after granting permission and tapping local test",
+  "transport_experiments": "NOT TESTED"
+}
